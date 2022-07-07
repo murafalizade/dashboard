@@ -1,0 +1,22 @@
+.sidebar{
+    height: 100vh;
+    background-color: black;
+    width: 350px;
+    .navbar-brand{
+        margin-top: 150px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.side-list{
+    text-align: left;
+    padding: 20px;
+    li{
+        font-family: 'Regular';
+        list-style: none;
+        color: #E1E1E1;
+        font-size: 20px;
+    }
+}
