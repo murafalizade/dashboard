@@ -60,6 +60,21 @@ body{
   background-color: #E5E5E5!important;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgb(221, 221, 221);
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(197, 197, 197);
+  border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(27, 12, 238, 0.568);
+}
+
 .comps{
   margin: 20px;
   background-color: white;
