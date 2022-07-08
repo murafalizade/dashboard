@@ -1,0 +1,23 @@
+.topic_layout{
+    display: flex;
+}
+
+.topic_body{
+    position: relative;
+    bottom: 47px;
+    right: 100px;
+    p{
+        font-family: 'Regular';
+        color: #A8A8A8;
+        font-size: 20px;
+    }
+    h5{
+        font-family: 'Regular';
+        font-size: 35px;
+    }
+    li{
+        list-style: none;
+        font-family: 'Regular';
+        margin-left: 120px;
+    }
+}

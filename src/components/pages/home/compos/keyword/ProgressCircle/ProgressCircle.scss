@@ -1,0 +1,48 @@
+.CircularProgressbar-text{
+    font-family: 'Regular';
+    font-weight: 600;
+}
+
+.CircularProgressbar-path {
+    stroke: #0092FC!important;
+    stroke-width: 5px;
+  }
+
+  .CircularProgressbar-trail {
+    stroke: #D8DCF2!important;
+    stroke-width: 5px;
+
+  }
+
+  .CircularProgressbar{
+    width: 40%;
+  }
+
+  .progress-circle{
+    width: 160px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #F7F8FF;
+    justify-content: space-around;
+    display: flex;
+    border-radius: 8px;
+    p{
+      color: #7F7F7F;
+      font-family: 'Regular';
+      font-weight: 500;
+
+    }
+    h4{
+      color: #33435A;
+      font-family: 'Regular';
+      font-weight: 600;
+      font-size: 21px;
+      margin-left: 0px!important;
+      span{
+        font-size: 13px;
+        position: relative;
+        bottom: 8px;
+        right: 5px;
+      }
+    }
+  }
