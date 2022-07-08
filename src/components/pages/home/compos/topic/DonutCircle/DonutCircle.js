@@ -22,7 +22,7 @@ export const DonutCircle = (data) => {
 
     return (
         <div className='donut'>
-            <Chart options={option} series={series} width={'370px'} type='donut' />
+            <Chart options={option} series={series} width={'390px'} type='donut' />
         </div>
     )
 }
