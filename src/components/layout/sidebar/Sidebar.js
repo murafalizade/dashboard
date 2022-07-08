@@ -17,14 +17,23 @@ export const Sidebar = () => {
             <img src={logo} alt='logo' />
         </div>
         <ul className='side-list'>
-            <li><img src={controlPanel}/>İdarə paneli</li>
-            <li><img src={search}/>Axtar</li>
-            <li><img src={all}/>Hamısı</li>
-            <li><img src={socialMedia}/>Sosyal Medya</li>
-            <li><img src={mail}/>Email</li>
-            <li><img src={contactUs}/>“Bizimlə Əlaqə”</li>
-            <li><img src={files}/>Skan edilmiş fayllar</li>
-            <li><img src={settings}/>Tənzimləmə</li>
+            <li><img src={controlPanel}/><span>İdarə paneli</span></li>
+            <li><img src={search}/><span>Axtar</span></li>
+            <li>
+              <form>
+                <select>
+                  <option>AzTelecom</option>
+                  <option></option>
+                  <option></option>
+                </select>
+              </form>
+            </li>
+            <li><img src={all}/><span>Hamısı</span></li>
+            <li><img src={socialMedia}/><span>Sosyal Medya</span></li>
+            <li><img src={mail}/><span>Email</span></li>
+            <li><img src={contactUs}/><span>“Bizimlə Əlaqə”</span></li>
+            <li><img src={files}/><span>Skan edilmiş fayllar</span></li>
+            <li><img src={settings}/><span>Tənzimləmə</span></li>
         </ul>
     </div>
   )
