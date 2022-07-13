@@ -1,0 +1,108 @@
+.text_container{
+    h3{
+        font-weight: 700;
+        font-family: 'Regular';
+
+    }
+    p{
+        font-family: 'Regular';
+        color: #969696;
+        line-height: 2em;
+    }
+    .ticket{
+        width: 70px;
+        border-radius: 8px;
+        background-color: #67BFE5;
+        color: white;
+        font-family: 'Regular';
+        font-weight: 700;
+        padding: 5px;
+        margin-left: 5px;
+        span{
+            padding: 0px 7px;
+            margin: 8px;
+            color: black;
+            background-color: white;
+            border-radius: 4px;
+            width: 24px;
+            height: 24px;
+        }
+    }
+    
+    .ticket-blue{
+        background-color: #9E98EC;
+    }
+    
+    .ticket-date{
+        background-color: #FFA18C;
+        img{
+            width: 20px;
+            height: 25px;
+            margin: 5px;
+        }
+    }
+    
+    .dtype{
+        background-color: #FFE609;
+        color: black;
+    }
+    
+    .ftype{
+        background-color: #72C3AA;
+    }
+    
+    .etype{
+        background-color: #1E589B;
+    }
+    .icon_container{
+        display: flex;
+        width: 50%;
+        margin-top: 30px;
+        align-items: center;
+        justify-content: space-around;
+        .icon-keyword{
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            font-size: 17px;
+            padding: 13px;
+            border-radius: 18px;
+            font-family: 'Regular';
+            color: white;
+            font-weight: 700;
+            img{
+                margin: 0px;
+            }
+        }
+    }
+
+    .keyword_container{
+        display: flex;
+        width: 60%;
+        justify-content: space-between;
+        margin-top: 30px;
+        p{
+            font-family: 'Regular';
+            color: #808080;
+            font-weight: 500;
+            span{
+                background-color: #F77272;
+                padding: 10px 20px;
+                border-radius: 20px;
+                margin: 0px;
+            }
+        }
+    }
+    .keywords{
+        p{
+            font-family: 'Regular';
+            font-weight: 500;
+            color: #808080;
+        }
+        span{
+            background-color: #5A92E2;
+            padding: 5px 20px;
+
+        }
+    }
+}

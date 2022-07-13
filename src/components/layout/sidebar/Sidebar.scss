@@ -1,6 +1,7 @@
 .sidebar{
     background-color: black;
     width: 350px;
+    min-height: 100vh;
     .navbar-brand{
         width: 100%;
         margin-top: 30px;
@@ -21,6 +22,14 @@
         color: #E1E1E1;
         font-size: 20px;
         padding: 10px;
+        a{
+            text-decoration:none;
+            color: #E1E1E1;
+
+            &:hover{
+                color: #E1E1E1;
+            }
+        }
         img{
             height: 23px;
             width: 23px;

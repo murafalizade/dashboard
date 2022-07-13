@@ -3,6 +3,7 @@ import { Layout } from './layout/Layout'
 import { Home } from './pages/home/Home'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import All from './pages/all/All';
+import { Other } from './pages/others/Other';
 
 
 export const Main = () => {
@@ -13,6 +14,7 @@ export const Main = () => {
             <Routes>
               <Route path='/' element={<Home />} />
               <Route path='/hamsi' element={<All />} />
+              <Route path='/hamsi/:id' element={<Other />} />
 
             </Routes>
           </Router>

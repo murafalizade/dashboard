@@ -14,26 +14,24 @@ export const Sidebar = () => {
   return (
     <div className='sidebar'>
         <div className='navbar-brand'>
-            <img src={logo} alt='logo' />
+            <a href="/"><img src={logo} alt='logo' /></a>
         </div>
         <ul className='side-list'>
-            <li><img src={controlPanel}/><span>İdarə paneli</span></li>
-            <li><img src={search}/><span>Axtar</span></li>
+            <li><a href='#'><img src={controlPanel}/><span>İdarə paneli</span></a></li>
+            <li><a href='#'><img src={search}/><span>Axtar</span></a></li>
             <li>
               <form>
                 <select>
                   <option>AzTelecom</option>
-                  <option></option>
-                  <option></option>
                 </select>
               </form>
             </li>
-            <li><img src={all}/><span>Hamısı</span></li>
-            <li><img src={socialMedia}/><span>Sosyal Medya</span></li>
-            <li><img src={mail}/><span>Email</span></li>
-            <li><img src={contactUs}/><span>“Bizimlə Əlaqə”</span></li>
-            <li><img src={files}/><span>Skan edilmiş fayllar</span></li>
-            <li><img src={settings}/><span>Tənzimləmə</span></li>
+            <li><a href='#'><img src={all}/><span>Hamısı</span></a></li>
+            <li><a href='#'><img src={socialMedia}/><span>Sosyal Medya</span></a></li>
+            <li><a href='#'><img src={mail}/><span>Email</span></a></li>
+            <li><a href='#'><img src={contactUs}/><span>“Bizimlə Əlaqə”</span></a></li>
+            <li><a href='#'><img src={files}/><span>Skan edilmiş fayllar</span></a></li>
+            <li><a href='#'><img src={settings}/><span>Tənzimləmə</span></a></li>
         </ul>
     </div>
   )
