@@ -1,7 +1,7 @@
 import React from 'react'
 import { Keyword } from './compos/keyword/Keyword'
 import Topic from './compos/topic/Topic'
-import {Container,Row,Col} from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import './Home.scss'
 import Type from './compos/type/Type'
 import { Content } from './compos/content/Content'
@@ -14,12 +14,12 @@ export const Home = () => {
       <Container>
         <Row>
 
-        <Col md={6}>
+          <Col md={6}>
             <Map />
           </Col>
 
           <Col md={6}>
-          <Map />
+            <Map />
 
           </Col>
           <Col md={6}>
@@ -38,9 +38,9 @@ export const Home = () => {
             <Content />
           </Col>
 
-          
+
           <Col md={6}>
-            <TableWrapper  contentTitle={'Bakı Kəndləri'}/>
+            <TableWrapper contentTitle={'Bakı Kəndləri'} />
           </Col>
 
           <Col md={6}>

@@ -5,7 +5,7 @@ import arrow from '../../../../../../assets/logos/arrow.svg'
 
 export const GuageCircle = () => {
 
-
+  const percentage = 60
   return (
     <div className='guage'>
       <div>
@@ -15,7 +15,7 @@ export const GuageCircle = () => {
         </div>
         <div className='guage-body'>
           <img src={semiChart} />
-          <img className='arrow' src={arrow} />
+          <img className='arrow' style={{transform:`rotate(${percentage-145}deg)`}} src={arrow} />
         </div>
       </div>
 

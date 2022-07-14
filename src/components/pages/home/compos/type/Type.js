@@ -9,7 +9,7 @@ export default function Type() {
     <div className='comps'>
       <h4>Növ</h4>
       <div className='topic_layout'>
-        <DonutCircle percentageData={data} />
+        {/* <DonutCircle percentageData={data} /> */}
         <div className='topic_body'>
           <p>Ümumi rəy sayı:</p>
           <h5>190</h5>

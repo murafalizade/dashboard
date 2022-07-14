@@ -9,7 +9,7 @@ export const Other = () => {
   return (
     <div className='other_page'>
 
-        <Container fluid>
+        <Container>
             <Row>
                 <Col md={6}><TextComp /></Col>
                 <Col md={6}>

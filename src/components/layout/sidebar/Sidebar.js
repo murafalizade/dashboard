@@ -17,7 +17,7 @@ export const Sidebar = () => {
             <a href="/"><img src={logo} alt='logo' /></a>
         </div>
         <ul className='side-list'>
-            <li><a href='#'><img src={controlPanel}/><span>İdarə paneli</span></a></li>
+            <li><a href='/'><img src={controlPanel}/><span>İdarə paneli</span></a></li>
             <li><a href='#'><img src={search}/><span>Axtar</span></a></li>
             <li>
               <form>
@@ -26,7 +26,7 @@ export const Sidebar = () => {
                 </select>
               </form>
             </li>
-            <li><a href='#'><img src={all}/><span>Hamısı</span></a></li>
+            <li><a href='/hamsi'><img src={all}/><span>Hamısı</span></a></li>
             <li><a href='#'><img src={socialMedia}/><span>Sosyal Medya</span></a></li>
             <li><a href='#'><img src={mail}/><span>Email</span></a></li>
             <li><a href='#'><img src={contactUs}/><span>“Bizimlə Əlaqə”</span></a></li>

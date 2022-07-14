@@ -4,7 +4,7 @@ import { Home } from './pages/home/Home'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import All from './pages/all/All';
 import { Other } from './pages/others/Other';
-
+import { hashHistory } from 'react-router';
 
 export const Main = () => {
   return (
@@ -12,7 +12,7 @@ export const Main = () => {
         <div>
           <Router>
             <Routes>
-              <Route path='/' element={<Home />} />
+              <Route path='/' element={<Home />} exact />
               <Route path='/hamsi' element={<All />} />
               <Route path='/hamsi/:id' element={<Other />} />
 

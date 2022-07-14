@@ -19,5 +19,13 @@
         list-style: none;
         font-family: 'Regular';
         margin-left: 120px;
+        display: flex;
     }
+}
+
+.legend-icon{
+    min-width: 25px;
+    min-height: 15px;
+    background-color: blue;
+    border-radius:25px;
 }

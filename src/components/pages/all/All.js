@@ -1,8 +1,9 @@
 import React from 'react'
 import { Container, Form, Row, Table } from 'react-bootstrap'
+import { BrowserRouter as Router} from 'react-router-dom'
 import './All.scss'
 
-export default function All() {
+export default function All({history}) {
   return (
     <div className='comps table-page'>
       <Container>
@@ -22,10 +23,7 @@ export default function All() {
                   <option>Tarix seç</option>
 
                 </Form.Select>
-              </Form>
-
-
-              
+              </Form> 
             </div>
           </div>
           <Table>
@@ -40,7 +38,7 @@ export default function All() {
             </thead>
             <tbody>
               
-              <tr>
+              <tr onClick={()=>{window.location.href = '/hamsi/id'}}>
                 <td>Telefon</td>
                 <td>Şikayət</td>
                 <td>Neqativ</td>
@@ -50,15 +48,15 @@ export default function All() {
 
               
 
-              <tr>
-                <td><a title='Daha ətraflı' href='/hamsi/id'>Internet</a></td>
+              <tr onClick={()=>{window.location.href = '/hamsi/id'}}>
+                <td>Internet</td>
                 <td>Şikayət</td>
                 <td>Neqativ</td>
                 <td>Rüşvət, Qovmaq, Prezident </td>
                 <td>Bakı, Nəzimi, 345A</td>
               </tr>
 
-              <tr>
+              <tr onClick={()=>{window.location.href = '/hamsi/sd'}}>
                 <td>Telefon</td>
                 <td>Şikayət</td>
                 <td>Neqativ</td>
@@ -66,7 +64,7 @@ export default function All() {
                 <td>Bakı, Nəzimi, 345A</td>
               </tr>
 
-              <tr>
+              <tr onClick={()=>{window.location.href = '/hamsi/sd'}}>
                 <td>Telefon</td>
                 <td>Şikayət</td>
                 <td>Neqativ</td>
@@ -74,7 +72,7 @@ export default function All() {
                 <td>Bakı, Nəzimi, 345A</td>
               </tr>
 
-              <tr>
+              <tr onClick={()=>{window.location.href = '/hamsi/sd'}}>
                 <td>Telefon</td>
                 <td>Şikayət</td>
                 <td>Neqativ</td>
@@ -82,7 +80,7 @@ export default function All() {
                 <td>Bakı, Nəzimi, 345A</td>
               </tr>
 
-              <tr>
+              <tr onClick={()=>{window.location.href = '/hamsi/sd'}}>
                 <td>Telefon</td>
                 <td>Şikayət</td>
                 <td>Neqativ</td>
@@ -90,7 +88,7 @@ export default function All() {
                 <td>Bakı, Nəzimi, 345A</td>
               </tr>
 
-              <tr>
+              <tr onClick={()=>{window.location.href = '/hamsi/sd'}}>
                 <td>Telefon</td>
                 <td>Şikayət</td>
                 <td>Neqativ</td>
@@ -98,7 +96,7 @@ export default function All() {
                 <td>Bakı, Nəzimi, 345A</td>
               </tr>
 
-              <tr>
+              <tr onClick={()=>{window.location.href = '/hamsi/sd'}}>
                 <td>Telefon</td>
                 <td>Şikayət</td>
                 <td>Neqativ</td>
