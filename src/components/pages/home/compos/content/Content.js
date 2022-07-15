@@ -9,7 +9,7 @@ export const Content = () => {
                 <GuageCircle />
                 <div className='topic_body'>
                     <p>Ümumi rəy sayı:</p>
-                    <h5>257</h5>
+                    <h4>257</h4>
                     <ul>
                         <li>163</li>
                         <li>80</li>
