@@ -13,7 +13,7 @@ export default function Topic() {
         <MyResponsivePie data={[{
           id: "İnternet",
           label: "İnternet",
-          value: 46,
+          value: 52,
           color: "hsl(20, 100%, 49%)"
         },
         {

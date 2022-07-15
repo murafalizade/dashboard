@@ -29,8 +29,8 @@ export const TextComp = () => {
         <span className='icon-keyword ftype'>F</span>
         <span className='icon-keyword etype'>E</span>
         <Form.Select value={fileType} onChange={(e)=>changeValue(e)}>
-          <option value={'PDF'}>label PDF</option>
-          <option value={'PDF'}>PDF</option>
+          <option value={'PDF'}>Label PDF</option>
+          <option value={'pdf'}>PDF</option>
 
         </Form.Select>
         <Button onClick={() => { fileDownload() }} className='download-button'>Faylı yüklə</Button>
